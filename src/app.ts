@@ -26,7 +26,7 @@ app.use('/api/auth', UserRoutes);
 app.use('/api/auth', AuthRoutes);
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hello assingment 4!');
+  res.send('Hello ashik!');
 });
 
 // global error handler
